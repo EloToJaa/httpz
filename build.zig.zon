@@ -1,15 +1,12 @@
 .{
     .name = "httpz",
-
     .version = "0.0.0",
-
     .dependencies = .{
         .httpz = .{
             .url = "https://github.com/karlseguin/http.zig/archive/3a3ef453efc1eceb74401b42228f4f890a954a20.tar.gz",
             .hash = "1220d7fcde08104248ce554d758dd1a44d36bc740576c746572f387ca37cbb85875f"
         },
     },
-
     .paths = .{
         "build.zig",
         "build.zig.zon",
