@@ -17,6 +17,8 @@ pub fn main() !void {
     // overwrite the default error handler
     server.errorHandler(errorHandler);
 
+    server.config.workers.count = 1;
+
     var router = server.router();
 
     // use get/post/put/head/patch/options/delete
